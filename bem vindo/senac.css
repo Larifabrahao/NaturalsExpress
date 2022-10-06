@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* { 
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{background-image: url("campo.jpg");
+    
+}
+
+#menu-h{
+    background-color: rgb(8, 129, 34);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(7, 7, 7);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(3, 0, 0);
+}
+.container{
+    text-align: center;
+    line-height: 100vh;
+}
+.container{
+    vertical-align: middle;
+}
+.welcome{
+    font-size: 80px;
+    text-align: center;
+}
+.container2{
+    width: fit-content;
+    box-shadow: 8px 10px 8px;
+    background-color: green;
+}
+img{
+    box-shadow: 8px 10px 8px;
+}
